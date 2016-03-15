@@ -1,0 +1,1988 @@
+/*@font-face {
+	font-family: 'OrhonChaganTig-H';
+	src: url('fonts/OrhonChaganTig-H.eot');
+	src: url('fonts/OrhonChaganTig-H.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/OrhonChaganTig-H.woff') format('woff'),
+	     url('fonts/OrhonChaganTig-H.ttf') format('truetype'),
+	     url('fonts/OrhonChaganTig-H.svg') format('svg'); 
+}
+
+@font-face {
+	font-family: 'OrhonChaganTig';
+	src: url('fonts/OrhonChaganTig.eot');
+	src: url('fonts/OrhonChaganTig.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/OrhonChaganTig.woff') format('woff'),
+	     url('fonts/OrhonChaganTig.ttf') format('truetype'),
+	     url('fonts/OrhonChaganTig.svg') format('svg'); 
+}*/
+h1, h2, h3, h4, h5, h6 ,strong,.wrap h2，.form-table th{
+	font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: OrhonGarchagTig-H;
+}
+#dashboard_right_now .versions .b, #post-status-display, #post-visibility-display, #adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:hover, .media-item .percent, .plugins .name, #pass-strength-result.strong, #pass-strength-result.short, #ed_reply_toolbar #ed_reply_strong, .item-controls .item-order a, .feature-filter .feature-name {
+	font-weight: normal;
+}
+p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 5px 0;
+}
+.wrap {
+	margin: 0px;
+}
+.wrap p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 1em 0;
+}
+body, #wpadminbar * {
+	font-family: OrhonChaganTig-H;
+	font-size: 20px;
+	font-weight: normal;
+}
+.row-title {
+	font-size: 20px !important;
+	font-weight: normal; 
+}
+
+body ,#wpadminbar *{
+	font-family: OrhonChaganTig-H;
+}
+body{
+	overflow-y: hidden;
+	overflow-x: auto;
+	width: 100%;
+	height: 100%;
+}
+/*login*/
+body.login{
+	height: 100vw;
+	width: 100vh;
+}
+#wpwrap{
+	transform-origin:left top;
+	transform:matrix(0,1,1,0,0,0);
+	-ms-transform-origin:left top;
+	-ms-transform:matrix(0,1,1,0,0,0);
+	-webkit-transform-origin:left top;
+	-webkit-transform:matrix(0,1,1,0,0,0);
+	-o-transform-origin:left top;
+	-o-transform:matrix(0,1,1,0,0,0);
+	-moz-transform-origin:left top;
+	-moz-transform:matrix(0,1,1,0,0,0);
+}
+.i8 #wpwrap{
+	filter:progid:DXImageTransform.Microsoft.Matrix(M11=0.0,M12=1.1,M21=1.1,M22=0.0,SizingMethod='auto expand');
+}
+.widefat th input[type=checkbox] {
+	margin-top: -1px;
+}
+.sticky-menu #adminmenuwrap {
+	position: absolute;
+	z-index: 9999;
+}
+#wpadminbar {
+	position: absolute;
+}
+
+#wp-admin-bar-my-account > .ab-item:before {
+	content: "\f110";
+	top: 2px;
+	float: right;
+	margin-left: 6px;
+	margin-right: 0;
+	transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+/*admin menu*/
+#adminmenu a.menu-top, #adminmenu .wp-submenu-head {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 18px;
+	padding: 0;
+}
+#collapse-menu {
+	font-size: 20px;
+}
+#wpadminbar #wp-admin-bar-site-name > .ab-item:before{
+	margin-top: 5px;
+	margin-left: -5px;
+}
+#wpwrap{padding-top: 36px;}
+@media screen and (min-width:782px){
+	/*#wpwrap{padding-top: 36px;}*/
+	#wpadminbar #wp-admin-bar-site-name > .ab-item:before{
+	text-overflow: clip;
+	content: "";
+	transform-origin: left top;
+	 transform: matrix(0,1,1,0,0,0); 
+	-ms-transform-origin: left top;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: left top;
+	 -webkit-transform: matrix(0,1,1,0,0,0); 
+	-o-transform-origin: left top;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: left top;
+	-moz-transform: matrix(0,1,1,0,0,0);
+	/*margin-top: 5px;
+	margin-left: -5px;*/
+	}
+}
+@media screen and (max-width:782px){
+	#wpadminbar #wp-admin-bar-site-name > .ab-item:before{
+		text-overflow: clip;
+		content: "";
+		transform-origin: left top;
+		transform: matrix(0,1,1,0,0,0); 
+		-ms-transform-origin: left top;
+		-ms-transform: matrix(0,1,1,0,0,0);
+		-webkit-transform-origin: left top;
+		-webkit-transform: matrix(0,1,1,0,0,0); 
+		-o-transform-origin: left top;
+		-o-transform: matrix(0,1,1,0,0,0);
+		-moz-transform-origin: left top;
+		-moz-transform: matrix(0,1,1,0,0,0);
+		/*margin-top: -10px;
+		margin-left: 10px;*/
+	}
+}
+html.wp-toolbar {
+	padding-top: 0px;
+}
+#adminmenu .wp-submenu a{
+	font-size: 18px;
+}
+
+
+#post-body.columns-2 #postbox-container-1 {
+    float: left;
+    margin-right: 0px;
+    width: 100%;
+}
+#poststuff #post-body.columns-2 {
+margin-right: 0px;
+}
+#poststuff #post-body.columns-2 #side-sortables {
+	width: 100%;
+}
+
+.code, code ,kbd{
+	font-family: OrhonChaganTig-H,Consolas, Monaco, monospace;
+	direction: ltr;
+}
+#error-page code{
+	font-family: OrhonGarChagTig-H;
+}
+/*common*/
+.metabox-holder h3 {
+	font-size: 20px;
+}
+h2 .nav-tab {
+	padding: 6px 10px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+}
+.widefat td, .widefat td p, .widefat td ol, .widefat td ul {
+	font-size: 18px;
+	line-height: 1.5em;
+}
+.subsubsub {
+	font-size: 20px;
+}
+.widefat th {
+	font-size: 18px;
+}
+h4 {
+font-size: 1.4em;
+margin: 1.33em 0;
+}
+#wpbody-content .inline-edit-row fieldset {
+font-size: 18px;
+}
+.inline-edit-row fieldset ul.cat-checklist label, .inline-edit-row #bulk-titles div {
+font-style: normal;
+font-size: 16px;
+}
+
+.row-actions{
+	font-size: 18px;
+	padding: 2px 0 0;
+}	
+/*editer style*/
+.wp-admin .mce-tooltip {
+    transform-origin: 50% 0px ;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    -ms-transform-origin: 50% 0px 0px;
+    -ms-transform: matrix(0,1,1,0,0,0);
+    -webkit-transform-origin: 50% 0px;
+    -webkit-transform: matrix(0,1,1,0,0,0);
+    -o-transform-origin: 50% 0px ;
+    -o-transform: matrix(0,1,1,0,0,0);
+    -moz-transform-origin: 50% 0px;
+    -moz-transform: matrix(0,1,1,0,0,0);
+    margin-left: 15px;
+    margin-top: -15px;
+}
+.mce-menu-align{
+	transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+.mce-floatpanel{
+	transform-origin: 50% 50%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 50% 50%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 50% 50%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 50% 50%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+
+#content_ifr{
+	min-height:600px ;
+	max-height: 1000px;
+}
+
+.wp-admin .mce-tooltip .mce-tooltip-inner {
+	font-family: OrhonChaganTig-H;
+}
+
+#wp-content-wrap .mce-toolbar .mce-btn-group .mce-btn.mce-listbox span {
+	font-size: 18px;
+	font-family: OrhonChaganTig-H;
+}
+.mce-tooltip .mce-tooltip-inner {
+	font-size: 15px;
+}
+
+.tmce-active .switch-tmce, .html-active .switch-html,.wp-editor-tabs .wp-switch-editor,.wp-switch-editor,.switch-tmce,.switch-html{
+
+    font-family: OrhonChaganTig-H;
+
+}
+input,input.large-text, textarea.large-text,.tmce-active .switch-tmce, #poststuff .html-active,#poststuff .switch-html {
+	font-family: OrhonChaganTig-H;
+	font-size: 20px;
+}
+#minor-publishing-actions input, #major-publishing-actions input, #minor-publishing-actions .preview {
+	font-size: 20px;
+}
+input.regular-text, #adduser .form-field input {
+    width: 26em;
+    font-family: OrhonChaganTig-H;
+}
+.wSelect-theme-classic.wSelect {
+    min-height: 28px;
+}
+.wSelect-theme-classic .wSelect-options {
+    max-height: 400px;
+}
+
+.wp-admin select,.wp-admin .media-modal .media-modal-content select {
+    /*visibility: hidden;*/
+    display: none;
+}
+select{
+	display: none;
+}
+.media-frame input[type="text"], .media-frame input[type="password"], .media-frame input[type="number"], .media-frame input[type="search"], .media-frame input[type="email"], .media-frame input[type="url"], .media-frame textarea, .media-frame select {
+    font-family: OrhonChaganTig-H;
+}
+/*edit.css:14*/
+#poststuff #post-body.columns-2 {
+    margin-right: 0px;
+}
+/*edit.css:1*/
+#poststuff {
+    min-width: 463px;
+}
+.wp-admin .mce-window .mce-window-head .mce-title {
+	font-size: 20px;
+	font-weight: normal;
+}
+.wp-admin .mce-widget{
+	font-size: 20px;
+	font-weight: normal;
+	font-family: OrhonChaganTig-H;
+}
+.mce-container-body .mce-edit-area{
+	min-height: 800px;
+	max-height: 1200px;
+}
+#wp-content-wrap .wp-editor-area,.wp-editor-container textarea.wp-editor-area {
+	min-height: 600px;
+	max-height: 1200px;
+	font-family: OrhonChaganTig-H;
+	font-size: 20px;
+	word-break: keep-all;
+}
+#post-status-info td {
+	font-size: 18px;
+}
+#poststuff h3 {
+	font-size: 18px;
+}
+
+/***ico transform***/
+img, .wp-menu-image, .wp-media-buttons .add_media span.wp-media-buttons-icon {
+	transform-origin: left top;
+	transform: matrix(0,1,1,0,0,0);
+	-ms-transform-origin: left top;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: left top;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: left top;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: left top;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+
+
+/*buttons*/
+ .wp-core-ui #wpwrap .button,.wp-core-ui #wpwrap .button-primary,.wp-core-ui #wpwrap .button-secondary{
+	font-size: 20px;
+}
+
+#wpwrap #submitbox .button{
+	font-size: 20px;
+}
+
+.wrap .add-new-h2, .wrap .add-new-h2:active {
+	font-weight: normal;
+	font-size: 20px;
+}
+#screen-meta-links a.show-settings {
+	font-size: 20px;
+}
+span.description,textarea, input, select {
+	font-size: 18px;
+}
+#createuser span.description{
+	font-size: 18px;
+	color: red;
+}
+/*dash*/
+/* one column on the dash */
+@media only screen and (max-height: 799px) {
+	#wpbody-content #dashboard-widgets .postbox-container {
+		width: 100%;
+	}
+}
+.postbox .inside, .stuffbox .inside {
+	padding: 0 12px 12px;
+	line-height: 1.4em;
+	font-size: 20px;
+}
+#activity-widget #the-comment-list .comment-item h4 {
+	font-size: 18px;
+	color: #999;
+}
+#dashboard-widgets h4 {
+	font-size: 18px;
+}
+/* three columns on the dash */
+@media only screen and (min-width: 1500px) and (max-width: 1800px) and (min-height: 800px) {
+	#wpbody-content #dashboard-widgets .postbox-container {
+		width: 49.5%;
+	}
+
+	#wpbody-content #dashboard-widgets #postbox-container-1 {
+		width: 49.5%;
+	}
+}
+
+/* two columns on the dash, but keep the setting if one is selected */
+@media only screen and (min-height: 800px) and (max-height: 1499px) {
+	#wpbody-content #dashboard-widgets .postbox-container {
+		width: 49.5%;
+	}
+
+	#wpbody-content #dashboard-widgets #postbox-container-2,
+	#wpbody-content #dashboard-widgets #postbox-container-3,
+	#wpbody-content #dashboard-widgets #postbox-container-4 {
+		float: right;
+		width: 50.5%;
+	}
+
+	#dashboard-widgets #postbox-container-3 .empty-container,
+	#dashboard-widgets #postbox-container-4 .empty-container {
+		border: 0 none;
+		height: 0;
+		min-height: 0;
+	}
+
+	#wpbody #wpbody-content #dashboard-widgets.columns-1 .postbox-container {
+		width: 100%;
+	}
+
+	#wpbody #wpbody-content .metabox-holder.columns-1 .postbox-container .empty-container {
+		border: 0 none;
+		height: 0;
+		min-height: 0;
+	}
+
+	/* show the radio buttons for column prefs only for one or two columns */
+	.index-php .screen-layout,
+	.index-php .columns-prefs {
+		display: block;
+	}
+
+	.columns-prefs .columns-prefs-3,
+	.columns-prefs .columns-prefs-4 {
+		display: none;
+	}
+}
+
+/* three columns on the dash */
+@media only screen and (min-height: 1500px) and (max-height: 1800px) {
+	#wpbody-content #dashboard-widgets .postbox-container {
+		width: 33.5%;
+	}
+
+	#wpbody-content #dashboard-widgets #postbox-container-1 {
+		width: 33%;
+	}
+
+	#wpbody-content #dashboard-widgets #postbox-container-3,
+	#wpbody-content #dashboard-widgets #postbox-container-4 {
+		float: right;
+	}
+
+	#dashboard-widgets #postbox-container-4 .empty-container {
+		border: 0 none;
+		height: 0;
+		min-height: 0;
+	}
+}
+
+@media screen and (max-height: 870px) {
+	.welcome-panel .welcome-panel-column,
+	.welcome-panel .welcome-panel-column:first-child {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	.welcome-panel .welcome-panel-column li {
+		display: inline-block;
+		margin-right: 13px;
+	}
+
+	.welcome-panel .welcome-panel-column ul {
+		margin: 0.4em 0 0;
+	}
+
+}
+
+@media screen and ( max-height: 782px ) {
+	#dashboard_recent_comments #the-comment-list .comment-item .avatar {
+		height: 30px;
+		width: 30px;
+		margin: 4px 10px 5px 0;
+	}
+}
+
+/* Smartphone */
+@media screen and (max-height: 600px) {
+	/* Keep the close icon from overlapping the Welcome text. */
+	.welcome-panel .welcome-panel-close {
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 20px;
+		height: 20px;
+		right: 0;
+		padding: 5px;
+	}
+
+	/* Make the close icon larger for tappability. */
+	#welcome-panel.welcome-panel .welcome-panel-close:before {
+		font-size: 20px;
+		margin: 0;
+	}
+}
+
+/***footer begin***/
+#wpfooter p {
+	font-size: 20px;
+	margin: 0;
+	line-height: 20px;
+}
+
+/*list_table*/
+.tablenav .displaying-num {
+	margin-right: 2px;
+	color: #777;
+	font-size: 20px;
+	font-style: normal;
+}
+table.fixed {
+	table-layout: auto;
+}
+/***forms ***/
+.form-table, .form-table td, .form-table th, .form-table td p, .form-wrap label {
+	font-size: 20px;
+}
+.form-table th {
+	font-weight: normal;
+}
+.item-type,.appearance_page_custom-header #upload-form p label {
+	font-size: 18px;
+}
+.metabox-prefs label input[type=checkbox]{
+	transform-origin: 50% 50%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 50% 50%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 50% 50%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 50% 50%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+textarea, input, select, button {
+	font-weight: normal;
+}
+
+/*template edit*/
+#template textarea {
+	font-family: Consolas, Monaco, monospace;
+	font-size: 20px;
+	width: 97%;
+	background: #f9f9f9;
+	outline: none;
+}
+#templateside {
+	float: right;
+	width: 190px;
+	word-wrap: break-word;
+	border: 1px solid #CCC;
+	box-shadow: 3px 3px 7px rgba(159, 159, 173, 0.8);
+	border-radius: 9px;
+}
+.nonessential {
+	color: #666;
+	font-size: 21px;
+	font-style: italic;
+	padding-left: 12px;
+}
+
+/*themes*/
+.theme-browser .theme .theme-screenshot img {
+	transform-origin: left top;
+	transform: matrix(0,1,1,0,0,0);
+	-ms-transform-origin: left top;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: left top;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: left top;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: left top;
+	-moz-transform: matrix(0,1,1,0,0,0);
+	height: 151%;
+}
+.theme-browser .theme .more-details {
+	font-size: 22px;
+	font-weight: normal;
+}
+@media only screen and (min-width: 1680px) {
+	.theme-overlay .theme-wrap {
+		width: auto; 
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 960px){
+	.theme-overlay .theme-wrap {
+		top: 9%;
+		left: 56px;
+		right: 30px;
+		bottom: 14%;
+	}
+}
+.theme-browser .theme {
+	cursor: pointer;
+	float: left;
+	margin: 0 4% 4% 0;
+	position: relative;
+	width: 30.6%;
+	border: 1px solid #dedede;
+	-webkit-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px -1px rgba(0,0,0,0.1);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 2000px) {
+	#wpwrap .theme-browser .theme {
+		width: 45%;
+		margin: 0 3% 3% 0;
+	}
+}
+/* Maximum screenshot width reaches 440px */
+@media only screen and (min-width: 1640px) {
+	.theme-browser .theme {
+		width: auto;
+		margin: 0 3% 3% 0;
+	}
+}
+/* Maximum screenshot width reaches 440px */
+@media only screen and (max-width: 1120px) {
+	.theme-browser .theme {
+		width: auto;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.theme-browser .theme {
+		width: auto;
+		margin-right: 0;
+	}
+}
+@media only screen and (min-height: 1640px) {
+	#wpwrap .theme-browser .theme {
+		width: 22.6%;
+		margin: 0 3% 3% 0;
+	}
+}
+/* Maximum screenshot width reaches 440px */
+@media only screen and (max-height: 1640px) and (min-height: 1100px) {
+	.theme-browser .theme {
+		width: 29.7%;
+		margin: 0 3% 3% 0;
+	}
+}
+/* Maximum screenshot width reaches 440px */
+@media only screen and (max-height: 1100px) and (min-height: 700px){
+	.theme-browser .theme {
+		width: 47.5%;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-height: 700px){
+	.theme-browser .theme {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+/*themes and plugins edit*/
+#template #documentation{
+	display: none;
+}
+#template{
+	width: -moz-calc( 100% - 190px);
+	width: -webkit-calc( 100% - 190px);
+	width: -o-calc( 100% - 190px);
+	width: -ms-calc( 100% - 190px);
+	width: calc( 100% - 190px);
+}
+#template div {
+	margin-right: 0;
+}
+.plugins .row-actions {
+	font-size: 18px;
+}
+.plugins .inactive .plugin-title strong {
+	font-weight: normal;
+}
+td.post-title strong, td.plugin-title strong {
+	font-size: 18px;
+}
+.plugin-version-author-uri {
+	font-size: 18px;
+}
+/**media template style **/
+.media-modal{
+	transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+.attachment-info .thumbnail {
+	width: 90px;
+	height: 120px;
+}
+.media-modal-icon, .attachment-preview .thumbnail {
+	transform-origin: left top;
+	transform: matrix(0,1,1,0,0,0);
+	-ms-transform-origin: left top;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: left top;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: left top;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: left top;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+.wp-admin .media-modal, .wp-admin .media-frame {
+	font-family: OrhonChaganTig-H,"Open Sans", sans-serif;
+	font-size: 18px;
+}
+.wp-admin  .media-menu > a {
+	font-size: 18px;
+	font-weight: normal;
+}
+.wp-admin .media-router > a,.wp-admin .media-menu .active, .wp-admin .media-menu .active:hover {
+	font-weight: normal;
+	font-size: 18px;
+}
+.wp-admin .media-frame input[type="text"], .wp-admin .media-frame input[type="password"],.wp-admin  .media-frame input[type="number"],.wp-admin  .media-frame input[type="search"],.wp-admin  .media-frame input[type="email"], .wp-admin .media-frame input[type="url"], .wp-admin .media-frame textarea, .wp-admin .media-frame select {
+	font-family: OrhonChaganTig-H,"Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+.wp-admin .media-selection .count {
+	font-weight: normal;
+}
+.wp-admin .media-selection {
+	right: auto;
+	max-width: 180px;
+}
+.wp-admin .uploader-inline p,.wp-admin .media-sidebar h3, .image-details h3 ,.wp-admin .media-sidebar .setting span, .attachment-details .setting span,.wp-admin .media-sidebar .setting span, .wp-admin .attachment-details .setting span, .wp-admin .compat-item label span {
+	font-weight: normal;
+	font-size: 18px;
+}
+html .wp-core-ui .button.button-hero,html .wp-core-ui .button-group.button-hero .button {
+font-size: 18px;
+}
+.wp-admin .image-details .media-modal {
+	left: 40px;
+	right: 140px;
+}
+.wp-admin .attachments-browser .media-toolbar {
+	height: auto;
+}
+.wp-admin .media-toolbar-primary {
+	width: 50%;
+}
+.wp-admin .media-toolbar-secondary {
+	width: 100%%;
+}
+.wp-admin .media-toolbar-secondary .wSelect-theme-classic.wSelect{
+	/*margin-top: -40px;*/
+}
+.wp-admin .media-frame input[type="search"]{
+	width: 100%;
+}
+.wp-admin .attachment .filename{
+	transform-origin: 100% 100%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 100% 100%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 100% 100%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 100% 100%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 100% 100%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+.mode-grid .media-frame-content .attachments{
+	margin-top: 170px;
+}
+.wrap .widefat * {
+    word-wrap: normal;
+}
+body.wp-admin{
+	height: 100vh;
+}
+#wpwrap{
+	width: 100vh;
+	min-height: 100vw;
+}
+html,body{
+	height: 100vh;
+}
+
+/*format*/
+#post-formats-select .post-format-icon:before ,.welcome-panel .welcome-view-site:before,.welcome-panel .welcome-learn-more:before,#dashboard_right_now li a:before, #dashboard_right_now li span:before,th .comment-grey-bubble:before{
+transform-origin: 0% 0%;
+transform: matrix(0, 1, 1, 0, 0, 0);
+-ms-transform-origin: 0% 0%;
+-ms-transform: matrix(0,1,1,0,0,0);
+-webkit-transform-origin: 0% 0%;
+-webkit-transform: matrix(0,1,1,0,0,0); 
+-o-transform-origin: 0% 0%;
+-o-transform: matrix(0,1,1,0,0,0);
+-moz-transform-origin: 0% 0%;
+-moz-transform: matrix(0,1,1,0,0,0);
+}
+/*check box*/
+input[type=checkbox]{
+	transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0); 
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+#error-page{
+	height: 100vw;
+	width: 100vh;
+	transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0); 
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+	font-family: OrhonChaganTig-H;
+	font-size: 25px;
+	margin: 0;
+	max-width: 100vh;
+	box-sizing: border-box;
+}
+#error-page p{
+	font-size: 20px;
+}
+#newcontent{
+	transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+/*admin-menu*/
+/* Auto-folding of the admin menu */
+@media only screen and (max-height: 500px) {
+	.auto-fold #wpcontent,
+	.auto-fold #wpfooter {
+		margin-left: 36px;
+	}
+
+	.auto-fold #adminmenuback,
+	.auto-fold #adminmenuwrap,
+	.auto-fold #adminmenu,
+	.auto-fold #adminmenu li.menu-top {
+		width: 36px;
+	}
+
+	.auto-fold #adminmenu .wp-submenu.sub-open,
+	.auto-fold #adminmenu .opensub .wp-submenu,
+	.auto-fold #adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+	.auto-fold #adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+	.auto-fold #adminmenu a.menu-top:focus + .wp-submenu,
+	.auto-fold #adminmenu .wp-has-current-submenu a.menu-top:focus + .wp-submenu  {
+		top: 0px;
+		left: 36px;
+	}
+
+	.auto-fold #adminmenu a.wp-has-current-submenu:focus + .wp-submenu,
+	.auto-fold #adminmenu .wp-has-current-submenu .wp-submenu {
+		position: absolute;
+		top: -1000em;
+		margin-right: -1px;
+		padding: 7px 0 8px;
+		z-index: 9999;
+	}
+
+	.auto-fold #adminmenu .wp-has-current-submenu .wp-submenu {
+		min-width: 150px;
+		width: auto;
+	}
+
+	.auto-fold #adminmenu .wp-has-current-submenu li > a {
+		padding-right: 16px;
+		padding-left: 14px;
+	}
+
+
+	.auto-fold #adminmenu li.menu-top .wp-submenu > li > a {
+		padding-left: 12px;
+	}
+
+	.auto-fold #adminmenu .wp-menu-name {
+		display: none;
+	}
+
+	.auto-fold #adminmenu .wp-submenu-head {
+		display: block;
+	}
+
+	.auto-fold #adminmenu div.wp-menu-image {
+		height: 30px;
+		width: 34px;
+		position: absolute;
+		z-index: 25;
+	}
+
+	.auto-fold #adminmenu a.menu-top {
+		height: 34px;
+	}
+
+	.auto-fold #adminmenu li.wp-menu-open {
+		border: 0 none;
+	}
+
+	.auto-fold #adminmenu .wp-has-current-submenu.menu-top-last {
+		margin-bottom: 0;
+	}
+
+	.auto-fold ul#adminmenu li:hover a.wp-has-current-submenu:after {
+		display: none;
+	}
+
+	.auto-fold ul#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after {
+		border-width: 4px;
+		margin-top: -4px;
+		top: 16px;
+	}
+
+	.auto-fold ul#adminmenu a.wp-has-current-submenu:after,
+	.auto-fold ul#adminmenu > li a.current:after {
+		border-width: 4px;
+		margin-top: -4px;
+	}
+
+	.auto-fold #adminmenu li.menu-top:hover,
+	.auto-fold #adminmenu li.opensub > a.menu-top,
+	.auto-fold #adminmenu li > a.menu-top:focus {
+		z-index: 10000;
+	}
+
+	.auto-fold #collapse-menu span {
+		display: none;
+	}
+
+	.auto-fold #collapse-button div {
+		background: none;
+	}
+
+	.auto-fold #collapse-button div:after {
+		-webkit-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+
+	.rtl.auto-fold #collapse-button div:after {
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+	}
+
+}
+
+@media screen and ( max-height: 500px ) {
+	.auto-fold #wpcontent {
+		position: relative;
+		margin-left: 0;
+		padding-left: 10px;
+	}
+
+	.sticky-menu #adminmenuwrap {
+		position: relative;
+		z-index: auto;
+		top: 0;
+	}
+
+	/* Sidebar Adjustments */
+	.auto-fold #adminmenu,
+	.auto-fold #adminmenuback,
+	.auto-fold #adminmenuwrap {
+		position: absolute;
+		width: 190px;
+		z-index: 100;
+	}
+
+	.auto-fold #adminmenuback,
+	.auto-fold #adminmenuwrap {
+		display: none;
+	}
+
+	.auto-fold .wp-responsive-open #adminmenuback,
+	.auto-fold .wp-responsive-open #adminmenuwrap {
+		display: block;
+	}
+
+	.auto-fold #adminmenu li.menu-top {
+		width: 100%;
+	}
+
+	/* Resize the admin menu items to a comfortable touch size */
+	.auto-fold #adminmenu li a {
+		font-size: 16px;
+		padding: 5px;
+	}
+
+	.auto-fold #adminmenu li.menu-top .wp-submenu > li > a {
+		padding: 10px 10px 10px 20px;
+	}
+
+	/* Restore the menu names */
+	.auto-fold #adminmenu .wp-menu-name {
+		display: block;
+		margin-left: 35px;
+	}
+
+	/* Switch the arrow side */
+	.auto-fold ul#adminmenu a.wp-has-current-submenu:after,
+	.auto-fold ul#adminmenu > li.current > a.current:after {
+		border-width: 8px;
+		margin-top: -8px;
+	}
+
+	.auto-fold ul#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after {
+		display: none;
+	}
+
+	/* Make the submenus appear correctly when tapped. */
+	#adminmenu .wp-submenu {
+		position: relative;
+		display: none;
+	}
+
+	.auto-fold #adminmenu .selected .wp-submenu,
+	.auto-fold #adminmenu .wp-menu-open .wp-submenu {
+		position: relative;
+		display: block;
+		top: 0;
+		left: -1px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	.auto-fold #adminmenu .selected .wp-submenu:after,
+	.auto-fold #adminmenu .wp-menu-open .wp-submenu:after {
+		display: none;
+	}
+
+	.auto-fold #adminmenu .opensub .wp-submenu {
+		display: none;
+	}
+
+	.auto-fold #adminmenu .selected .wp-submenu {
+		display: block;
+	}
+
+	.auto-fold ul#adminmenu li:hover a.wp-has-current-submenu:after {
+		display: block;
+	}
+
+	.auto-fold #adminmenu a.menu-top:focus + .wp-submenu,
+	.auto-fold #adminmenu .wp-has-current-submenu a.menu-top:focus + .wp-submenu {
+		position: relative;
+		left: -1px;
+		right: 0;
+		top: 0;
+	}
+
+	/* Remove submenu headers and adjust sub meu*/
+	#adminmenu .wp-submenu .wp-submenu-head {
+		display: none;
+	}
+
+	/* Toolbar menu toggle */
+	#wp-responsive-toggle {
+		position: fixed;
+		top: 5px;
+		left: 4px;
+		padding-right: 10px;
+		z-index: 99999;
+		border: none;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	#wpadminbar #wp-admin-bar-menu-toggle a {
+		display: block;
+		padding: 0;
+		overflow: hidden;
+		outline: none;
+		text-decoration: none;
+		border: 1px solid transparent;
+		background: none;
+		height: 44px;
+		margin-left: -1px;
+	}
+
+	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a {
+		background: #333;
+	}
+
+	li#wp-admin-bar-menu-toggle {
+		display: block;
+	}
+
+	#wpadminbar #wp-admin-bar-menu-toggle a:hover {
+		border: 1px solid transparent;
+	}
+
+	#wpadminbar #wp-admin-bar-menu-toggle .ab-icon:before {
+		content: '\f228';
+		display: inline-block;
+		float: left;
+		font: normal 40px/45px 'Dashicons';
+		vertical-align: middle;
+		outline: none;
+		margin: 0;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		height: 44px;
+		width: 50px;
+		padding: 0;
+		border: none;
+		text-align: center;
+		text-decoration: none;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+/* Smartphone */
+@media screen and (max-height: 400px) {
+	#adminmenuwrap,
+	#adminmenuback {
+		display: none;
+	}
+
+	.wp-responsive-open #adminmenuwrap,
+	.wp-responsive-open #adminmenuback {
+		display: block;
+	}
+
+	.auto-fold #adminmenu {
+		top: 46px;
+	}
+}
+
+/*common */
+@media screen and ( max-height: 500px ) {
+	/*html.wp-toolbar {
+		padding-top: 46px;
+	}*/
+	#wpwrap {
+		padding-top: 0px;
+	}
+
+	body {
+		min-width: 240px;
+		overflow-y: hidden;
+	}
+
+	body * {
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+	}
+
+	#wpcontent {
+		position: relative;
+		margin-left: 0;
+		padding-left: 10px;
+	}
+
+	#wpbody-content {
+		padding-bottom: 100px;
+	}
+
+	.wrap {
+		margin-right: 12px;
+		margin-left: 0;
+	}
+
+	.col-wrap {
+		padding: 0;
+	}
+
+	/* Hidden Elements */
+	#screen-meta,
+	#screen-meta-links,
+	#collapse-menu,
+	.post-format-select {
+		display: none !important;
+	}
+
+	.wrap .add-new-h2, .wrap .add-new-h2:active {
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+
+	.wp-color-result {
+		height: auto;
+		padding-left: 45px;
+	}
+
+	.wp-color-result:after {
+		font-size: 14px;
+		height: auto;
+		padding: 6px 14px;
+	}
+
+	/* Feedback Messages */
+	.wrap div.updated, .wrap div.error, .media-upload-form div.error {
+		margin: 20px 0 10px 0;
+		padding: 5px 10px;
+		font-size: 14px;
+		line-height: 175%;
+	}
+
+	.wrap .icon32 + h2 {
+		margin-top: -2px;
+	}
+
+	.wp-responsive-open #wpbody {
+		right: -190px;
+	}
+
+	code {
+		word-wrap: break-word;
+	}
+
+	/* General Metabox */
+	.postbox {
+		font-size: 14px;
+	}
+
+	.metabox-holder h3 {
+		padding: 12px;
+	}
+
+	.postbox .handlediv {
+		margin-top: 3px;
+	}
+
+	/* Subsubsub Nav */
+	.subsubsub {
+		font-size: 16px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	/* Theme/Plugin File Editor */
+	#templateside {
+		float: none;
+		width: auto;
+	}
+
+	#templateside li {
+		margin: 0;
+	}
+
+	#templateside li a {
+		display: block;
+		padding: 5px;
+	}
+
+	#templateside .highlight {
+		padding: 5px;
+		margin-left: -5px;
+		margin-top: -5px;
+	}
+
+	#template div {
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+
+	#template textarea {
+		width: 100%;
+	}
+
+	.fileedit-sub .alignright {
+		margin-top: 15px;
+	}
+
+	#wpfooter {
+		display: none;
+	}
+
+	#comments-form .checkforspam {
+		display: none;
+	}
+}
+
+/* Smartphone */
+@media screen and (max-height: 600px) {
+	/* Disable horizontal scroll when responsive menu is open
+	   since we push the main content off to the right. */
+	#wpwrap.wp-responsive-open {
+		overflow-x: hidden;
+	}
+
+	html.wp-toolbar {
+		padding-top: 0;
+	}
+
+	#wpbody {
+		padding-top: 46px;
+	}
+
+	/* Keep full-width boxes on Edit Post page from causing horizontal scroll */
+	div#post-body.metabox-holder.columns-1 {
+		overflow-x: hidden;
+	}
+}
+/*admin bar*/
+@media screen and ( max-height: 500px ) {
+	/* Toolbar Touchification*/
+	html #wpadminbar {
+		left: 0 !important;
+		z-index: 1002 !important;
+		height: 46px;
+		min-width: 300px;
+
+	/*	These rules break dropdown tappability on Chrome/Android.
+		-webkit-transform: translate3d(0, 0, 0);
+		-webkit-backface-visibility: hidden;
+		-webkit-transition: 0;
+		transform: translate3d(0, 0, 0);
+		backface-visibility: hidden;
+		transition: 0;
+	*/
+	}
+
+	#wpadminbar * {
+		font: normal 14px/32px OrhonChaganTig-H,"Open Sans", sans-serif;
+	}
+
+	#wpadminbar .quicklinks > ul > li > a,
+	#wpadminbar .quicklinks .ab-empty-item {
+		padding: 0;
+		height: 46px;
+		line-height: 46px;
+		width: auto;
+	}
+
+	#wpadminbar .ab-icon {
+		font: 40px/1 dashicons !important;
+		margin: 0;
+		padding: 0;
+		width: 52px;
+		height: 46px;
+		text-align: center;
+	}
+
+	#wpadminbar .ab-icon:before {
+		text-align: center;
+	}
+
+	#wpadminbar .ab-submenu {
+		padding: 0;
+	}
+
+	#wpadminbar #wp-admin-bar-site-name a.ab-item,
+	#wpadminbar #wp-admin-bar-my-sites a.ab-item,
+	#wpadminbar #wp-admin-bar-my-account a.ab-item {
+		text-overflow: clip;
+	}
+
+	#wpadminbar .ab-label {
+		display: none;
+	}
+
+	#wpadminbar .menupop li:hover > .ab-sub-wrapper,
+	#wpadminbar .menupop li.hover > .ab-sub-wrapper {
+		margin-top: -46px;
+	}
+
+	#wpadminbar .ab-top-menu .menupop .ab-sub-wrapper .menupop > .ab-item {
+		padding-right: 30px;
+	}
+
+	#wpadminbar .menupop .menupop > .ab-item:before {
+		top: 10px;
+		right: 6px;
+	}
+
+	#wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper .ab-item {
+		font-size: 16px;
+		padding: 6px 15px 12px;
+	}
+
+	#wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper a:empty {
+		display: none;
+	}
+
+	/* WP logo */
+	#wpadminbar #wp-admin-bar-wp-logo > .ab-item {
+		padding: 0;
+	}
+
+	#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon {
+		padding: 0;
+		width: 52px;
+		height: 46px;
+		text-align: center;
+		vertical-align: top;
+	}
+
+	#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
+		font: 28px/1 'dashicons' !important;
+		top: -3px;
+	}
+
+	#wpadminbar .ab-icon,
+	#wpadminbar .ab-item:before {
+		padding: 0;
+	}
+
+	/* My Sites and "Site Title" menu */
+	#wpadminbar #wp-admin-bar-my-sites > .ab-item,
+	#wpadminbar #wp-admin-bar-site-name > .ab-item,
+	#wpadminbar #wp-admin-bar-edit > .ab-item,
+	#wpadminbar #wp-admin-bar-my-account > .ab-item {
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		width: 52px;
+		padding: 0;
+		color: #999;
+		position: relative;
+	}
+
+	#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default .ab-icon,
+	#wpadminbar .ab-icon,
+	#wpadminbar .ab-item:before {
+		padding: 0;
+		margin-right: 0;
+	}
+
+	#wpadminbar #wp-admin-bar-edit > .ab-item:before,
+	#wpadminbar #wp-admin-bar-my-sites > .ab-item:before,
+	#wpadminbar #wp-admin-bar-site-name > .ab-item:before,
+	#wpadminbar #wp-admin-bar-my-account > .ab-item:before {
+		display: block;
+		text-indent: 0;
+		font: normal 32px/1 'dashicons';
+		speak: none;
+		/*top: 7px;
+		width: 52px;*/
+		text-align: center;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	#wpadminbar #wp-admin-bar-site-name > .ab-item:before {
+	margin-top: 0px;
+	margin-left: 0;
+	}
+	#wpadminbar #wp-admin-bar-appearance {
+		margin-top: 0;
+	}
+
+	#wpadminbar .quicklinks li .blavatar:before {
+		display: none;
+	}
+
+	/* Search */
+	#wpadminbar #wp-admin-bar-search {
+		display: none;
+	}
+
+	/* New Content */
+	#wpadminbar #wp-admin-bar-new-content .ab-icon:before {
+		top: 0;
+		line-height: 53px;
+		height: 46px !important;
+		text-align: center;
+		width: 52px;
+		display: block;
+	}
+
+	/* Updates */
+	#wpadminbar #wp-admin-bar-updates {
+		text-align: center;
+	}
+
+	#wpadminbar #wp-admin-bar-updates .ab-icon:before {
+		top: 3px;
+	}
+
+	/* Comments */
+	#wpadminbar #wp-admin-bar-comments .ab-icon {
+		margin: 0;
+	}
+
+	#wpadminbar #wp-admin-bar-comments .ab-icon:before {
+		display: block;
+		font-size: 34px;
+		height: 46px;
+		line-height: 47px;
+		top: 0;
+	}
+
+	/* My Account */
+	#wpadminbar #wp-admin-bar-my-account > a {
+		position: relative;
+		white-space: nowrap;
+		text-indent: 150%; /* More than 100% indention is needed since this element has padding */
+		width: 28px;
+		padding: 0 10px;
+		overflow: hidden; /* Prevent link text from forcing horizontal scrolling on mobile */
+	}
+
+	#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+		position: absolute;
+		top: 13px;
+		right: 10px;
+		width: 26px;
+		height: 26px;
+	}
+
+	#wpadminbar #wp-admin-bar-user-actions.ab-submenu {
+		padding: 0;
+	}
+
+	#wpadminbar #wp-admin-bar-user-actions.ab-submenu img.avatar {
+		display: none;
+	}
+
+	#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li {
+		margin: 0;
+	}
+
+	#wpadminbar #wp-admin-bar-user-info .display-name {
+		height: auto;
+		font-size: 16px;
+		line-height: 24px;
+		color: #eee;
+	}
+
+	#wpadminbar #wp-admin-bar-user-info a {
+		padding-top: 4px;
+	}
+
+	#wpadminbar #wp-admin-bar-user-info .username {
+		line-height: 0.8 !important;
+		margin-bottom: -2px;
+	}
+
+	/* Show only default top level items */
+	#wp-toolbar > ul > li {
+		display: none;
+	}
+
+	#wpadminbar li#wp-admin-bar-menu-toggle,
+	#wpadminbar li#wp-admin-bar-wp-logo,
+	#wpadminbar li#wp-admin-bar-my-sites,
+	#wpadminbar li#wp-admin-bar-updates,
+	#wpadminbar li#wp-admin-bar-site-name,
+	#wpadminbar li#wp-admin-bar-new-content,
+	#wpadminbar li#wp-admin-bar-edit,
+	#wpadminbar li#wp-admin-bar-comments,
+	#wpadminbar li#wp-admin-bar-new-content,
+	#wpadminbar li#wp-admin-bar-my-account {
+		display: block;
+	}
+
+	/* Allow dropdown list items to appear normally */
+	#wpadminbar li:hover ul li,
+	#wpadminbar li.hover ul li,
+	#wpadminbar li:hover ul li:hover ul li {
+		display: list-item;
+	}
+
+	/* Override default min-width so dropdown lists aren't stretched
+		to 100% viewport width at responsive sizes. */
+	#wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+		min-width: -webkit-fit-content;
+		min-width: -moz-fit-content;
+		min-width: fit-content;
+	}
+
+	#wpadminbar ul#wp-admin-bar-root-default > li {
+		margin-right: 0;
+	}
+
+	/* Experimental fix for touch toolbar dropdown positioning */
+	#wpadminbar .ab-top-menu,
+	#wpadminbar .ab-top-secondary,
+	#wpadminbar #wp-admin-bar-wp-logo,
+	#wpadminbar #wp-admin-bar-my-sites,
+	#wpadminbar #wp-admin-bar-site-name,
+	#wpadminbar #wp-admin-bar-updates,
+	#wpadminbar #wp-admin-bar-comments,
+	#wpadminbar #wp-admin-bar-new-content,
+	#wpadminbar #wp-admin-bar-edit,
+	#wpadminbar #wp-admin-bar-my-account {
+		position: static;
+	}
+
+	#wpadminbar #wp-admin-bar-my-account {
+		float: right;
+	}
+
+	.network-admin #wpadminbar ul#wp-admin-bar-top-secondary > li#wp-admin-bar-my-account {
+		margin-right: 0;
+	}
+
+	/* Realign arrows on taller responsive submenus */
+
+	#wpadminbar .ab-top-secondary .menupop .menupop > .ab-item:before {
+		top: 10px;
+		left: 0;
+	}
+}
+
+/* Smartphone */
+@media screen and (max-height: 400px) {
+	#wpadminbar {
+		position: absolute;
+	}
+
+	#wp-responsive-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 400;
+	}
+
+	#wpadminbar .ab-top-menu > .menupop > .ab-sub-wrapper {
+		position: fixed;
+		width: 100%;
+		left: 0;
+	}
+
+	#wpadminbar .menupop .menupop > .ab-item:before {
+		display: none;
+	}
+
+	#wpadminbar #wp-admin-bar-wp-logo.menupop .ab-sub-wrapper {
+		margin-left: 0;
+	}
+
+	#wpadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper {
+		margin: 0;
+		width: 100%;
+		top: auto;
+		left: auto;
+		position: relative;
+	}
+
+	#wpadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper .ab-item {
+		font-size: 16px;
+		padding: 6px 15px 19px 30px;
+	}
+
+	#wpadminbar li:hover ul li ul li {
+		display: list-item;
+	}
+
+	#wpadminbar li#wp-admin-bar-wp-logo,
+	#wpadminbar li#wp-admin-bar-updates {
+		display: none;
+	}
+
+	/* Make submenus full-width at this size */
+
+	#wpadminbar .ab-top-menu > .menupop li > .ab-sub-wrapper {
+		position: static;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}
+/*theme customize view*/
+.wp-full-overlay.expanded,.wp-full-overlay.collapsed {
+	margin-left: 0px; 
+	/*transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);*/
+	height: 100vw;
+	width: 100vh;
+}
+.wp-full-overlay.collapsed #customize-controls{
+	width: 0px;
+}
+.wp-full-overlay.collapsed #customize-preview{
+	left: 0;
+}
+.wp-full-overlay.collapsed .collapse-sidebar {
+	left: 287px;
+}
+body.adding-widget #widgets-left #available-widgets {
+	left: 300px;
+}
+#customize-controls{
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+}
+.wp-full-overlay-sidebar {
+width: 300px;
+}
+.wp-full-overlay-main {
+	right: auto;
+	left: 300px;
+	margin-left: 0;
+	width: -moz-calc( 100% - 200px);
+	width: -webkit-calc( 100% - 200px);
+	width: -o-calc( 100% - 200px);
+	width: -ms-calc( 100% - 200px);
+	width: calc( 100% - 200px);
+}
+#customize-preview{
+	transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+	width: 100vw;
+	height: 80vh;
+}
+/*auth check*/
+#wp-auth-check-wrap #wp-auth-check{
+	height: 500px;
+	max-height: 500px;
+}
+#wp-auth-check-wrap #wp-auth-check-form{
+	transform-origin: 0% 0%;
+	transform: matrix(0, 1, 1, 0, 0, 0);
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: 0% 0%;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: 0% 0%;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: 0% 0%;
+	-moz-transform: matrix(0,1,1,0,0,0);
+	height: 380px;
+	width: 500px;
+}
+.media-modal, .media-frame {
+	font-family: OrhonChaganTig-H !important;
+	font-size: 16px !important;
+}
+.media-frame input[type="text"], .media-frame input[type="password"], .media-frame input[type="number"], .media-frame input[type="search"], .media-frame input[type="email"], .media-frame input[type="url"], .media-frame textarea, .media-frame select {
+	font-family: OrhonChaganTig-H !important;
+	font-size: 16px !important;
+}
+.media-sidebar .attachment-info .thumbnail img {
+	margin: auto 0;
+	max-width: 120px;
+	max-height: 90px;
+}
+body.cheatin p {
+	font-size: 18px;
+}
+body #customize-info .preview-notice ,body .customize-control-title,body .control-section.control-panel .preview-notice,body #customize-info .preview-notice{
+	font-size: 18px;
+	font-weight: normal;
+}
+body #customize-controls h3 ,body #customize-info .theme-name{
+	font-size: 20px;
+	font-weight: normal;
+}
+#wp-fullscreen-body #fullscreen-topbar{
+	-ms-transform-origin: 0% 0%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+}
+#wp-fullscreen-body #wp-fullscreen-statusbar{
+	-ms-transform-origin: 100% 100%;
+	-ms-transform: matrix(0,1,1,0,0,0);
+}
+body{
+	word-break: keep-all;
+}
+
+/*nav menu*/
+#wpbody-content #menu-settings-column {
+	display: inline;
+	width: 100%;
+	margin-left: 0px;
+	clear: both;
+	float: left;
+	padding-top: 0;
+}
+#menu-management-liquid {
+	float: left;
+	min-width: 100%;
+	margin-top: 3px;
+	width: 100%;
+	margin-left: 0px;
+}
+#nav-menus-frame{
+	margin-left: 0;
+}
+.customlinkdiv .howto input {
+	width: 70%;
+}
+/*color picker*/
+.wp-picker-container input[type="text"].wp-color-picker {
+	font-size: 18px;
+	font-family: OrhonChaganTig-H;
+}
+/*customize*/
+#customize-control-header_image .container img{
+	transform:none;
+}
+#customize-control-header_image button img {
+display: block;
+transform: none;
+}
+div.widget-liquid-left {
+	margin: 0;
+	width: 100%;
+	float: left;
+}
+div.widget-liquid-right {
+	float: left;
+	width: 100%;
+}
+div#widgets-right .sidebars-column-1, div#widgets-right .sidebars-column-2 {
+	max-width: 100%;
+}
+/*ie fix*/
+#wp-link-wrap{
+	-ms-transform:matrix(0,1,1,0,0,0);
+}
+#screen-meta {
+	margin: 0 0 -1px 0;
+}
+body.press-this form[action^="press-this.php"] {
+    transform-origin: left top;
+    transform: matrix(0,1,1,0,0,0);
+    -ms-transform-origin: left top;
+    -ms-transform: matrix(0,1,1,0,0,0);
+    -webkit-transform-origin: left top;
+    -webkit-transform: matrix(0,1,1,0,0,0);
+    -o-transform-origin: left top;
+    -o-transform: matrix(0,1,1,0,0,0);
+    -moz-transform-origin: left top;
+    -moz-transform: matrix(0,1,1,0,0,0);
+    height: 100vw;
+    width: 100vh;
+}
+body.press-this #content_ifr{
+	min-height: 800px;
+}
+
+div#contextual-help-back {
+    display: none;
+}
+.contextual-help-tabs {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.contextual-help-tabs-wrap {
+    padding: 0 20px;
+    overflow: auto;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+    border-bottom: none;
+    background: #f6fbfd;
+}
+.contextual-help-sidebar {
+    float: left;
+    overflow: auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#wpbody-content .quick-edit-row-post .inline-edit-col-left {
+    width: 100%;
+}
+#wpbody-content .inline-edit-row-post .inline-edit-col-center {
+    width: 100%;
+}
+#wpbody-content .quick-edit-row-post .inline-edit-col-right {
+    width: 100%;
+}
+#wpbody-content .quick-edit-row-page .inline-edit-col-left,#wpbody-content .bulk-edit-row-post .inline-edit-col-right, #wpbody-content .quick-edit-row-page .inline-edit-col-right{
+	width: 100%;
+}
+#wpbody-content .quick-edit-row-page fieldset.inline-edit-col-right .inline-edit-col{
+	border-style: solid none none none;
+	border-width: 1px 0 0 0;
+}
+div#col-right {
+    width: 100%;
+}
+div#col-left {
+    width: 100%;
+}
+iframe#TB_iframeContent ,.plugin-card .compatibility-compatible:before,.locale-mn .theme-browser .theme .theme-installed:before{
+    transform-origin: left top;
+    transform: matrix(0,1,1,0,0,0);
+    -ms-transform-origin: left top;
+    -ms-transform: matrix(0,1,1,0,0,0);
+    -webkit-transform-origin: left top;
+    -webkit-transform: matrix(0,1,1,0,0,0);
+    -o-transform-origin: left top;
+    -o-transform: matrix(0,1,1,0,0,0);
+    -moz-transform-origin: left top;
+    -moz-transform: matrix(0,1,1,0,0,0);
+}
+body#plugin-information.locale-mn #plugin-information-title.with-banner h2{
+	font-family: OrhonChaganTig-H;
+}
+body#plugin-information.locale-mn div#OrhonIMEState {
+    transform-origin: right bottom;
+    transform: matrix(0,1,1,0,0,0);
+    -ms-transform-origin: right bottom;
+    -ms-transform: matrix(0,1,1,0,0,0);
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: matrix(0,1,1,0,0,0);
+    -o-transform-origin: right bottom;
+    -o-transform: matrix(0,1,1,0,0,0);
+    -moz-transform-origin: right bottom;
+    -moz-transform: matrix(0,1,1,0,0,0);
+}
+body.wp-admin.locale-mn .plugin-card {
+    width: 100%;
+}
+body.wp-admin.locale-mn span.select2-dropdown.select2-dropdown--below {
+    transform-origin: left top;
+    transform: matrix(0,1,1,0,28,-28);
+    -ms-transform-origin: left top;
+    -ms-transform: matrix(0,1,1,0,28,-28);
+    -webkit-transform-origin: left top;
+    -webkit-transform: matrix(0,1,1,0,28,-28);
+    -o-transform-origin: left top;
+    -o-transform: matrix(0,1,1,0,28,-28);
+    -moz-transform-origin: left top;
+    -moz-transform: matrix(0,1,1,0,28,-28);
+}

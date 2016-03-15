@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'OrhonChaganTig';
+	src: local("OrhonChaganTig"),url('../fonts/OrhonChaganTig.eot');
+	src: local("OrhonChaganTig"),url('../fonts/OrhonChaganTig.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/OrhonChaganTig.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OrhonChaganTig-H';
+	src: local("OrhonChaganTig-H"),url('../fonts/OrhonChaganTig-H.eot');
+	src: local("OrhonChaganTig-H"),url('../fonts/OrhonChaganTig-H.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/OrhonChaganTig-H.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OrhonChaganTig-RTL';
+	src: local("OrhonChaganTig-RTL"),url('../fonts/OrhonChaganTig-RTL.eot');
+	src: local("OrhonChaganTig-RTL"),url('../fonts/OrhonChaganTig-RTL.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/OrhonChaganTig-RTL.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OrhonChaganTig-V';
+	src: local("OrhonChaganTig-V"),url('../fonts/OrhonChaganTig-V.eot');
+	src: local("OrhonChaganTig-V"),url('../fonts/OrhonChaganTig-V.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/OrhonChaganTig-V.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OrhonGarchagTig';
+	src: local("OrhonGarchagTig"),url('../fonts/OrhonGarchagTig.eot');
+	src: local("OrhonGarchagTig"),url('../fonts/OrhonGarchagTig.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/OrhonGarchagTig.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OrhonGarchagTig-H';
+	src: local("OrhonGarchagTig-H"),url('../fonts/OrhonGarchagTig-H.eot');
+	src: local("OrhonGarchagTig-H"),url('../fonts/OrhonGarchagTig-H.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/OrhonGarchagTig-H.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OrhonGarchagTig-RTL';
+	src: local("OrhonGarchagTig-H"),url('../fonts/OrhonGarchagTig-RTL.eot');
+	src: local("OrhonGarchagTig-H"),url('../fonts/OrhonGarchagTig-RTL.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/OrhonGarchagTig-RTL.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OrhonGarchagTig-V';
+	src: local("OrhonGarchagTig-H"),url('../fonts/OrhonGarchagTig-V.eot');
+	src: local("OrhonGarchagTig-H"),url('../fonts/OrhonGarchagTig-V.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/OrhonGarchagTig-V.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+}

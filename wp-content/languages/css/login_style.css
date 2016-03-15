@@ -1,0 +1,97 @@
+html {
+	overflow-y: hidden;
+	height: 100vh;
+}
+body.login {
+	transform-origin: left top;
+	transform: matrix(0,1,1,0,0,0);
+	-ms-transform-origin: left top;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: left top;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: left top;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: left top;
+	-moz-transform: matrix(0,1,1,0,0,0);
+	width: 100vw;
+	/* filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',Dx=0,Dy=0, M11=0.0, M12=1.0, M21=1.0, M22=0.0); */
+}
+.orhon_login_footer {
+	margin: 10px auto;
+	width: 320px;
+}
+.page-template .orhon_login_footer{
+	display: none;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: OrhonChaganTig-H;
+}
+.login p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+a{
+	text-decoration: none;
+}
+#login h1 a,input[type=checkbox]{
+	transform-origin: left top;
+	transform: matrix(0,1,1,0,0,0);
+	-ms-transform-origin: left top;
+	-ms-transform: matrix(0,1,1,0,0,0);
+	-webkit-transform-origin: left top;
+	-webkit-transform: matrix(0,1,1,0,0,0);
+	-o-transform-origin: left top;
+	-o-transform: matrix(0,1,1,0,0,0);
+	-moz-transform-origin: left top;
+	-moz-transform: matrix(0,1,1,0,0,0);
+}
+.login form {
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+	box-shadow: 3px 3px 7px rgba(159, 159, 173, 0.8);
+	border-radius-right-top: 98px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-image: url(../images/suld.png);
+	background-image: none,url(../images/suld.png);
+	background-size: 250px auto;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.login form .input, .login input[type="text"], .login form input[type="checkbox"] {
+	background-color: transparent;
+}
+.login #login ,.login .footer{
+width: 320px;
+padding: 8% 0 0;
+margin: 100px auto;
+}
+.login #login{
+	margin-bottom: 10px;
+}
+.login .footer {
+	padding-top: 10px;
+	margin-top: 10px;
+}
+body.login {
+	height: 100vw !important;
+	width: 100vh;
+	position: absolute;
+}
+.locale-mn div#OrhonIMEState {
+    transform-origin: right bottom;
+    transform: matrix(0,1,1,0,0,0);
+    -ms-transform-origin: right bottom;
+    -ms-transform: matrix(0,1,1,0,0,0);
+    -webkit-transform-origin: right bottom;
+    -webkit-transform: matrix(0,1,1,0,0,0);
+    -o-transform-origin: right bottom;
+    -o-transform: matrix(0,1,1,0,0,0);
+    -moz-transform-origin: right bottom;
+    -moz-transform: matrix(0,1,1,0,0,0);
+}

@@ -1,0 +1,6 @@
+wp-content/plugins/*
+wp-content/themes/*
+wp-content/uploads/*
+wp-config.php
+.htaccess
+*.DS_Store
