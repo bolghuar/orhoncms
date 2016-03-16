@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Fourteen For Mongolian\n"
+"POT-Creation-Date: 2016-03-08 20:08+0800\n"
+"PO-Revision-Date: 2016-03-15 17:32+0800\n"
+"Last-Translator: XuYS <orhonit@163.com>\n"
+"Language-Team: XuYS <orhonit@163.com>\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "ᠡᠷᠢᠵᠦ ᠣᠯᠣᠭᠰᠠᠨ ᠦᠭᠡᠢ "
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ᠡᠨᠡ ᠪᠠᠶᠢᠷᠢ ᠠᠴᠠ ᠶᠠᠭᠤ ᠴᠤ ᠣᠯᠣᠭᠰᠠᠨ ᠦᠭᠡᠢ᠃ ᠬᠠᠶᠢᠭᠤᠷ ᠢᠶᠠᠷ ᠲᠤᠷᠰᠢᠨ᠎ᠠ ᠤᠤ "
+
+#: archive.php:31
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "ᠡᠳᠦᠷ ᠦᠨ ᠳᠠᠩᠰᠠ:%s"
+
+#: archive.php:34
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "ᠰᠠᠷ᠎ᠠ ᠶᠢᠨ ᠳᠠᠩᠰᠠ: %s"
+
+#: archive.php:34
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:37
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "ᠵᠢᠯ ᠦᠨ ᠳᠠᠩᠰᠠ : %s"
+
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:40 taxonomy-post_format.php:51
+msgid "Archives"
+msgstr " ᠲᠥᠷᠥᠯ ᠬᠤᠪᠢᠶᠠᠷᠢᠯᠠᠯ"
+
+#: author.php:31
+#, php-format
+msgid "All posts by %s"
+msgstr "%s  ᠪᠠᠷ ᠳᠠᠮᠵᠢᠨ ᠪᠥᠬᠥ ᠵᠣᠬᠢᠶᠠᠯ ᠢ ᠤᠩᠰᠢᠬᠤ"
+
+#: category.php:20
+#, php-format
+msgid "Category Archives: %s"
+msgstr "ᠠᠩᠭᠢᠯᠠᠯ ᠤᠨ ᠳᠠᠩᠰᠠ:%s"
+
+#: comments.php:27
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; ᠳᠠᠬᠢ ᠰᠠᠨᠠᠯ"
+msgstr[1] "&ldquo;%2$s&rdquo; ᠳᠠᠬᠢ %1$s ᠰᠠᠨᠠᠯ"
+
+#: comments.php:34 comments.php:52
+msgid "Comment navigation"
+msgstr "ᠰᠢᠭᠦᠮᠵᠢ ᠶᠢᠨ ᠵᠠᠯᠠᠭᠤᠷ"
+
+#: comments.php:35 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; ᠬᠠᠭᠤᠴᠢᠪᠲᠤᠷ ᠰᠢᠭᠦᠮᠵᠢ"
+
+#: comments.php:36 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "ᠰᠢᠨᠡᠪᠲᠦᠷ ᠰᠢᠭᠦᠮᠵᠢ &rarr;"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "ᠰᠡᠳᠬᠢᠭᠳᠡᠯ  ᠦᠨ ᠳᠠᠪᠴᠠᠩ ᠬᠠᠭᠠᠭᠳᠠᠪᠠ  ᠃"
+
+#: content-aside.php:17 content-audio.php:17 content-featured-post.php:28
+#: content-gallery.php:17 content-image.php:17 content-link.php:17
+#: content-quote.php:17 content-video.php:17 content.php:19
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:38 inc/widgets.php:194
+msgid "Leave a comment"
+msgstr "ᠰᠢᠭᠦᠮᠵᠢ ᠦᠯᠡᠳᠡᠭᠡᠬᠦ "
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:38 inc/widgets.php:194
+msgid "1 Comment"
+msgstr "1 ᠰᠢᠭᠦᠮᠵᠢ"
+
+#: content-aside.php:37 content-audio.php:37 content-gallery.php:37
+#: content-image.php:37 content-link.php:37 content-quote.php:37
+#: content-video.php:37 content.php:38 inc/widgets.php:194
+msgid "% Comments"
+msgstr "% ᠰᠢᠭᠦᠮᠵᠢ"
+
+#: content-aside.php:40 content-audio.php:40 content-gallery.php:40
+#: content-image.php:40 content-link.php:40 content-page.php:28
+#: content-quote.php:40 content-video.php:40 content.php:42 image.php:34
+#: page-templates/contributors.php:35
+msgid "Edit"
+msgstr "ᠵᠠᠰᠠᠪᠤᠷᠢᠯᠠᠬᠤ"
+
+#: content-aside.php:46 content-audio.php:46 content-gallery.php:46
+#: content-image.php:46 content-link.php:46 content-quote.php:46
+#: content-video.php:46 content.php:54 inc/widgets.php:127 inc/widgets.php:172
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "ᠵᠠᠯᠭᠠᠵᠤ ᠤᠩᠰᠢᠬᠤ"
+
+#: content-aside.php:48 content-audio.php:48 content-gallery.php:48
+#: content-image.php:48 content-link.php:48 content-page.php:22
+#: content-quote.php:48 content-video.php:48 content.php:56 image.php:54
+msgid "Pages:"
+msgstr "ᠬᠠᠭᠤᠳᠠᠰᠤ᠄"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "ᠶᠠᠭᠤ ᠴᠤ ᠣᠯᠳᠠᠭᠰᠠᠨ ᠦᠭᠡᠢ "
+
+#: content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"ᠠᠩᠬᠠᠨ ᠤ ᠵᠣᠬᠢᠶᠠᠯ ᠢᠶᠠᠨ ᠨᠡᠶᠢᠲᠡᠯᠡᠬᠦ ᠭᠡᠵᠦ ᠪᠠᠶᠢᠨ᠎ᠠ ᠤᠤ ? <a href=“%s”>ᠡᠨᠳᠡ ᠳᠣᠶ᠋ᠢᠭᠠᠷᠠᠢ᠃"
+"</a>."
+
+#: content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"ᠠᠭᠤᠴᠢᠯᠠᠭᠠᠷᠠᠢ᠂ ᠲᠠᠨ ᠤ ᠬᠠᠶ᠋ᠢᠭᠰᠠᠨ ᠲᠠᠢ ᠲᠠᠭᠠᠷᠠᠬᠤ ᠠᠭᠤᠯᠭ᠎ᠠ ᠦᠭᠡᠢ᠃ ᠲᠠ ᠥᠭᠡᠷ᠎ᠡ ᠦᠭᠡ ᠪᠡᠷ "
+"ᠲᠤᠷᠰᠢᠨ᠎ᠠ ᠤᠤ"
+
+#: content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"ᠲᠠᠨ ᠤ ᠡᠷᠢᠵᠦ ᠪᠠᠶᠢᠭ᠎ᠠ ᠵᠦᠢᠯ ᠢ ᠡᠷᠢᠵᠦ ᠣᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠨ᠎ᠠ᠃ ᠬᠠᠶᠢᠭᠤᠷ ᠢᠶᠠᠷ ᠲᠤᠷᠰᠢᠨ᠎ᠠ ᠤᠤ᠃"
+
+#: footer.php:21
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:21
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "%s ᠮᠡᠷᠭᠡᠵᠢᠯ  ᠬᠠᠩᠭᠠᠪᠠ"
+
+#: functions.php:83
+msgid "Top primary menu"
+msgstr "ᠭᠣᠣᠯ ᠳᠣᠪᠶᠤᠭ"
+
+#: functions.php:84
+msgid "Secondary menu in left sidebar"
+msgstr "ᠵᠡᠭᠦᠨ ᠬᠠᠵᠠᠭᠤ ᠪᠠᠭᠠᠷ ᠤᠨ ᠬᠣᠶᠠᠳᠤᠭᠠᠷ ᠳᠣᠪᠶᠤᠭ"
+
+#: functions.php:171
+msgid "Primary Sidebar"
+msgstr "ᠭᠣᠣᠯ ᠳᠣᠪᠶᠤᠭ"
+
+#: functions.php:173
+msgid "Main sidebar that appears on the left."
+msgstr "ᠵᠡᠭᠦᠨ ᠬᠠᠵᠠᠭᠤ ᠪᠠᠭᠠᠷ ᠤᠨ ᠭᠣᠣᠯ ᠳᠣᠪᠶᠤᠭ"
+
+#: functions.php:180
+msgid "Content Sidebar"
+msgstr "ᠠᠭᠤᠯᠭ᠎ᠠ ᠶᠢᠨ ᠬᠠᠵᠠᠭᠤ ᠪᠠᠭᠠᠷ"
+
+#: functions.php:182
+msgid "Additional sidebar that appears on the right."
+msgstr "ᠨᠡᠮᠡᠯᠲᠡ ᠬᠠᠵᠠᠭᠤ ᠪᠠᠭᠠᠷ ᠨᠢ ᠪᠠᠷᠠᠭᠤᠨ ᠲᠠᠯ᠎ᠠ ᠳᠤ ᠢᠯᠡᠷᠡᠨ᠎ᠡ"
+
+#: functions.php:189
+msgid "Footer Widget Area"
+msgstr "ᠰᠡᠭᠦᠯ ᠦᠨ ᠵᠢᠵᠢᠭ ᠲᠤᠨᠤᠭ ᠤᠨ ᠲᠣᠭᠣᠷᠢᠭ"
+
+#: functions.php:191
+msgid "Appears in the footer section of the site."
+msgstr "ᠰᠠᠶᠢᠲ ᠤᠨ ᠰᠡᠭᠦᠯ ᠳᠦ ᠢᠯᠡᠷᠡᠭᠦᠯᠬᠦ"
+
+#: functions.php:213
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "ᠨᠡᠭᠡᠭᠡᠯᠲᠡᠲᠡᠢ"
+
+#: functions.php:254
+msgid "Previous"
+msgstr "ᠡᠮᠦᠨᠡᠬᠢ"
+
+#: functions.php:255
+msgid "Next"
+msgstr "ᠬᠣᠢᠢᠨᠠᠬᠢ"
+
+#: functions.php:376
+#, php-format
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] "%d ᠵᠣᠬᠢᠶᠠᠯ"
+msgstr[1] "%d ᠵᠣᠬᠢᠶᠠᠯ"
+
+#: functions.php:495
+#, php-format
+msgid "Page %s"
+msgstr "ᠬᠠᠭᠤᠳᠠᠰᠤ %s"
+
+#: header.php:48
+msgid "Search"
+msgstr "ᠬᠠᠶᠢᠬᠤ"
+
+#: header.php:52
+msgid "Primary Menu"
+msgstr "ᠭᠣᠣᠯ ᠳᠣᠪᠶᠤᠭ"
+
+#: header.php:53
+msgid "Skip to content"
+msgstr "ᠠᠭᠤᠯᠭ᠎ᠠ ᠳᠤ ᠲᠣᠪᠴᠢᠯᠠᠬᠤ"
+
+#: image.php:65
+msgid "Previous Image"
+msgstr "ᠡᠮᠦᠨᠡᠬᠢ ᠵᠢᠷᠤᠭ"
+
+#: image.php:66
+msgid "Next Image"
+msgstr "ᠳᠠᠷᠠᠭᠠᠬᠢ ᠵᠢᠷᠤᠭ"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fourteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+"Twenty Fourteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+
+#: inc/customizer.php:19 inc/customizer.php:20
+msgid "Background may only be visible on wide screens."
+msgstr "ᠠᠷᠤ ᠵᠢᠷᠤᠭ ᠨᠢ ᠥᠷᠭᠡᠨ ᠳᠡᠯᠭᠡᠴᠡ ᠳᠦ ᠰᠠᠶᠢ ᠢᠯᠡᠷᠡᠨ᠎ᠡ"
+
+#: inc/customizer.php:28
+msgid "Site Title Color"
+msgstr "ᠰᠠᠶᠢᠲ ᠤᠨ ᠭᠠᠷᠴᠠᠭ ᠤᠨ ᠬᠠᠶ᠋ᠢᠭ"
+
+#: inc/customizer.php:31
+msgid "Display Site Title &amp; Tagline"
+msgstr "ᠰᠠᠶᠢᠲ ᠤᠨ ᠭᠠᠷᠴᠠᠭ ᠢ ᠢᠯᠡᠷᠡᠭᠦᠯᠬᠦ"
+
+#: inc/customizer.php:35 inc/featured-content.php:405
+msgid "Featured Content"
+msgstr "ᠥᠪᠡᠷᠮᠢᠴᠡ ᠠᠭᠤᠯᠭ᠎ᠠ"
+
+#: inc/customizer.php:36 inc/featured-content.php:406
+#, php-format
+msgid ""
+"Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the "
+"tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+"Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the "
+"tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+
+#: inc/customizer.php:37 inc/customizer.php:102 inc/featured-content.php:407
+#: inc/featured-content.php:416 inc/featured-content.php:476
+msgctxt "featured content default tag slug"
+msgid "featured"
+msgstr "ᠥᠪᠡᠷᠮᠢᠴᠡ"
+
+#: inc/customizer.php:50
+msgid "Layout"
+msgstr "ᠳᠡᠯᠭᠡᠴᠡ  ᠶᠢᠨ ᠳᠠᠪᠬᠤᠷᠭ᠎ᠠ"
+
+#: inc/customizer.php:54
+msgid "Grid"
+msgstr "ᠲᠣᠣᠷᠯᠠᠵᠢ"
+
+#: inc/customizer.php:55
+msgid "Slider"
+msgstr "ᠭᠤᠯᠭᠤᠭᠤᠷ"
+
+#: inc/customizer.php:99
+msgid "Twenty Fourteen"
+msgstr "Twenty Fourteen"
+
+#: inc/customizer.php:102
+#, php-format
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change "
+"the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If "
+"no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed "
+"instead."
+msgstr ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change "
+"the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If "
+"no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed "
+"instead."
+
+#: inc/customizer.php:103
+#, php-format
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for "
+"posts you&rsquo;d like to stand out (also known as post thumbnails). This "
+"allows you to associate an image with your post without inserting it. Twenty "
+"Fourteen uses featured images for posts and pages&mdash;above the "
+"title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for "
+"posts you&rsquo;d like to stand out (also known as post thumbnails). This "
+"allows you to associate an image with your post without inserting it. Twenty "
+"Fourteen uses featured images for posts and pages&mdash;above the "
+"title&mdash;and in the Featured Content area on the home page."
+
+#: inc/customizer.php:104
+#, php-format
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s"
+"\">Twenty Fourteen documentation</a>."
+msgstr ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s"
+"\">Twenty Fourteen documentation</a>."
+
+#: inc/featured-content.php:428
+msgid "Tag Name"
+msgstr "ᠱᠣᠰᠢᠭ᠎ᠠ ᠶᠢᠨ ᠨᠡᠷ᠎ᠡ"
+
+#: inc/featured-content.php:433
+msgid "Don&rsquo;t display tag on front end."
+msgstr "ᠱᠣᠰᠢᠭ᠎ᠠ ᠶᠢ ᠢᠯᠡᠷᠡᠭᠦᠯᠬᠦ ᠦᠭᠡᠢ"
+
+#: inc/template-tags.php:50
+msgid "&larr; Previous"
+msgstr "&larr; ᠡᠮᠦᠨᠡᠬᠢ"
+
+#: inc/template-tags.php:51
+msgid "Next &rarr;"
+msgstr "ᠳᠠᠷᠠᠭᠠᠬᠢ &rarr;"
+
+#: inc/template-tags.php:58
+msgid "Posts navigation"
+msgstr "ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠵᠠᠯᠠᠭᠤᠷ"
+
+#: inc/template-tags.php:85
+msgid "Post navigation"
+msgstr "ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠵᠠᠯᠠᠭᠤᠷ"
+
+#: inc/template-tags.php:89
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "%ᠭᠠᠷᠴᠠᠭ <span class=“meta-nav”>&rarr;</span>"
+
+#: inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr "%ᠭᠠᠷᠴᠠᠭ <span class=“meta-nav”>&rarr;</span>"
+
+#: inc/template-tags.php:92
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr "%ᠭᠠᠷᠴᠠᠭ <span class=“meta-nav”>&rarr;</span>"
+
+#: inc/template-tags.php:109
+msgid "Sticky"
+msgstr "ᠲᠣᠭᠲᠠᠩᠭᠢ ᠪᠠᠢᠢᠷᠢᠰᠢᠯ"
+
+#: inc/widgets.php:34
+msgid "Twenty Fourteen Ephemera"
+msgstr "Twenty Fourteen Ephemera"
+
+#: inc/widgets.php:36
+msgid ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, "
+"Gallery, and Link posts."
+msgstr ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, "
+"Gallery, and Link posts."
+
+#: inc/widgets.php:54 taxonomy-post_format.php:33
+msgid "Images"
+msgstr "ᠵᠢᠷᠤᠭ"
+
+#: inc/widgets.php:55
+msgid "More images"
+msgstr "ᠳᠡᠯᠭᠡᠷᠡᠩᠭᠦᠢ ᠵᠢᠷᠤᠭ"
+
+#: inc/widgets.php:58 taxonomy-post_format.php:36
+msgid "Videos"
+msgstr "ᠸᠢᠳᠢᠦ᠋"
+
+#: inc/widgets.php:59
+msgid "More videos"
+msgstr "ᠳᠡᠯᠭᠡᠷᠡᠩᠭᠦᠢ ᠸᠢᠳᠢᠦ᠋"
+
+#: inc/widgets.php:62 taxonomy-post_format.php:39
+msgid "Audio"
+msgstr "ᠳᠠᠭᠤ"
+
+#: inc/widgets.php:63
+msgid "More audio"
+msgstr "ᠲᠡᠯᠭᠡᠷᠡᠩᠭᠦᠢ ᠠᠤᠳᠢᠦ᠋"
+
+#: inc/widgets.php:66 taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr "ᠡᠰᠢ"
+
+#: inc/widgets.php:67
+msgid "More quotes"
+msgstr "ᠳᠡᠯᠭᠡᠷᠡᠩᠭᠦᠢ‌ ᠁ "
+
+#: inc/widgets.php:70 taxonomy-post_format.php:45
+msgid "Links"
+msgstr "ᠬᠣᠯᠪᠤᠭᠠᠰᠤ"
+
+#: inc/widgets.php:71
+msgid "More links"
+msgstr "ᠨᠡᠩ ᠣᠯᠠᠨ ᠬᠣᠯᠪᠣᠭᠠᠰᠤ"
+
+#: inc/widgets.php:74 taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr "ᠵᠢᠷᠤᠭ ᠤᠨ ᠴᠣᠮᠣᠭ"
+
+#: inc/widgets.php:75
+msgid "More galleries"
+msgstr "ᠳᠡᠯᠭᠡᠷᠡᠩᠭᠦᠢ‌ ᠁ "
+
+#: inc/widgets.php:79 taxonomy-post_format.php:30
+msgid "Asides"
+msgstr "ᠬᠠᠵᠠᠭᠤ ᠶᠢᠨ ᠦᠭᠡ"
+
+#: inc/widgets.php:80
+msgid "More asides"
+msgstr "ᠳᠡᠯᠭᠡᠷᠡᠩᠭᠦᠢ‌ ᠁ "
+
+#: inc/widgets.php:162
+#, php-format
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid_plural ""
+"This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+msgstr[0] ""
+"ᠵᠢᠷᠤᠭ ᠤᠨ ᠴᠣᠮᠣᠭ ᠨᠢ  <a href=\"%1$s\" rel=\"bookmark\">%2$s ᠵᠢᠷᠤᠭ</a> ᠪᠠᠭᠲᠠᠨ᠎ᠠ᠃"
+msgstr[1] ""
+"ᠵᠢᠷᠤᠭ ᠤᠨ ᠴᠣᠮᠣᠭ ᠨᠢ  <a href=\"%1$s\" rel=\"bookmark\">%2$s ᠵᠢᠷᠤᠭ</a> ᠪᠠᠭᠲᠠᠨ᠎ᠠ᠃"
+
+#. translators: used with More archives link
+#: inc/widgets.php:206
+#, php-format
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/widgets.php:255
+msgid "Title:"
+msgstr "ᠭᠠᠷᠴᠠᠭ᠄"
+
+#: inc/widgets.php:258
+msgid "Number of posts to show:"
+msgstr "ᠦᠵᠡᠭᠦᠯᠬᠦ ᠪᠢᠴᠢᠯᠭᠡ  ᠶᠢᠨ ᠲᠣᠭ᠎ᠠ᠄"
+
+#: inc/widgets.php:261
+msgid "Post format to show:"
+msgstr "ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠢᠯᠡᠷᠡᠬᠦ ᠹᠣᠷᠮᠠᠲ"
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "ᠬᠠᠶᠢᠭᠰᠠᠨ ᠳ᠋ᠦᠩ: %s"
+
+#: tag.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "ᠱᠣᠰᠢᠭ᠎ᠠ ᠶᠢᠨ ᠳᠠᠩᠰᠠ: %s"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Fourteen For Mongolian"
+msgstr "Twenty Fourteen For Mongolian"
+
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/themes/twentyfourteen"
+msgstr "http://wordpress.org/themes/twentyfourteen"
+
+#. Description of the plugin/theme
+msgid ""
+"In 2014, our default theme lets you create a responsive magazine website "
+"with a sleek, modern design. Feature your favorite homepage content in "
+"either a grid or a slider. Use the three widget areas to customize your "
+"website, and change your content's layout with a full-width page template "
+"and a contributor page to show off your authors. Creating a magazine website "
+"with WordPress has never been easier."
+msgstr ""
+"In 2014, our default theme lets you create a responsive magazine website "
+"with a sleek, modern design. Feature your favorite homepage content in "
+"either a grid or a slider. Use the three widget areas to customize your "
+"website, and change your content's layout with a full-width page template "
+"and a contributor page to show off your authors. Creating a magazine website "
+"with WordPress has never been easier."
+
+#. Author of the plugin/theme
+msgid "Tranlated By ORHON"
+msgstr "Tranlated By ORHON"
+
+#. Author URI of the plugin/theme
+msgid "http://www.orhonit.org/"
+msgstr "http://www.orhonit.org/"

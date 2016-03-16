@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Twelve For Mongolian\n"
+"POT-Creation-Date: 2016-03-08 20:09+0800\n"
+"PO-Revision-Date: 2016-03-15 16:42+0800\n"
+"Last-Translator: XuYS <orhonit@163.com>\n"
+"Language-Team: XuYS <orhonit@163.com>\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "ᠵᠢᠭᠠᠬᠠᠨ ᠡᠪ ᠦᠭᠡᠶ ᠶᠠᠭᠤᠮ᠎ᠠ ᠪᠣᠯᠴᠢᠬᠠᠯ᠎ᠠ᠃"
+
+#: 404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"ᠲᠠᠨ ᠤ ᠡᠷᠢᠵᠦ ᠪᠠᠶᠢᠭ᠎ᠠ ᠵᠦᠢᠯ ᠢ ᠡᠷᠢᠵᠦ ᠣᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠨ᠎ᠠ᠃ ᠬᠠᠶᠢᠭᠤᠷ ᠢᠶᠠᠷ ᠲᠤᠷᠰᠢᠨ᠎ᠠ ᠤᠤ᠃"
+
+#: archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "ᠡᠳᠦᠷ ᠦᠨ ᠳᠠᠩᠰᠠ:%s"
+
+#: archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "ᠰᠠᠷ᠎ᠠ ᠶᠢᠨ ᠳᠠᠩᠰᠠ: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "ᠵᠢᠯ ᠦᠨ ᠳᠠᠩᠰᠠ : %s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:35
+msgid "Archives"
+msgstr " ᠲᠥᠷᠥᠯ ᠬᠤᠪᠢᠶᠠᠷᠢᠯᠠᠯ"
+
+#: author.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr "ᠵᠣᠬᠢᠶᠠᠭᠴᠢ ᠶᠢᠨ ᠳᠠᠩᠰᠠ : %s"
+
+#: author.php:63 content.php:62
+#, php-format
+msgid "About %s"
+msgstr "ᠬᠠᠮᠢᠶ᠎ᠠ ᠪᠦᠬᠦᠢ %s"
+
+#: category.php:21
+#, php-format
+msgid "Category Archives: %s"
+msgstr "ᠠᠩᠭᠢᠯᠠᠯ ᠤᠨ ᠳᠠᠩᠰᠠ:%s"
+
+#: comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;  ᠳᠠᠬᠢ ᠰᠠᠨᠠᠯ"
+msgstr[1] " &ldquo;%2$s&rdquo;   ᠳᠠᠬᠢ  %1$s ᠰᠠᠨᠠᠯ"
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr "ᠰᠢᠭᠦᠮᠵᠢ ᠶᠢᠨ ᠵᠠᠯᠠᠭᠤᠷ"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "&larr; ᠬᠠᠭᠤᠴᠢᠪᠲᠤᠷ ᠰᠢᠭᠦᠮᠵᠢ"
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "ᠰᠢᠨᠡᠪᠲᠦᠷ ᠰᠢᠭᠦᠮᠵᠢ &rarr;"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "ᠰᠡᠳᠬᠢᠭᠳᠡᠯ  ᠦᠨ ᠳᠠᠪᠴᠠᠩ ᠬᠠᠭᠠᠭᠳᠠᠪᠠ  ᠃"
+
+#: content-aside.php:15 content-image.php:13 content-link.php:14
+#: content-quote.php:13 content-status.php:31 content.php:44
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "ᠵᠠᠯᠭᠠᠵᠤ ᠤᠩᠰᠢᠬᠤ"
+
+#: content-aside.php:20 content-link.php:18 content-quote.php:17
+#: content-status.php:15
+#, php-format
+msgid "Permalink to %s"
+msgstr "ᠪᠠᠶᠢᠩᠭᠤ ᠶᠢᠨ ᠬᠣᠯᠪᠤᠭᠠᠰᠤ %s"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:33
+msgid "Leave a reply"
+msgstr "ᠬᠠᠷᠢᠭᠤ ᠦᠯᠡᠳᠡᠭᠡᠬᠦ"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:33
+msgid "1 Reply"
+msgstr "1 ᠬᠠᠷᠢᠭᠤ"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:37 content.php:33
+msgid "% Replies"
+msgstr "%  ᠬᠠᠷᠢᠭᠤ"
+
+#: content-aside.php:26 content-image.php:26 content-link.php:24
+#: content-page.php:24 content-quote.php:23 content-status.php:40
+#: content.php:51 functions.php:276 image.php:37
+msgid "Edit"
+msgstr "ᠵᠠᠰᠠᠪᠤᠷᠢᠯᠠᠬᠤ"
+
+#: content-link.php:12
+msgid "Link"
+msgstr "ᠬᠣᠯᠪᠤᠭᠠᠰᠤ"
+
+#: content-none.php:13 index.php:49 search.php:34
+msgid "Nothing Found"
+msgstr "ᠶᠠᠭᠤ ᠴᠤ ᠣᠯᠳᠠᠭᠰᠠᠨ ᠦᠭᠡᠢ "
+
+#: content-none.php:17 index.php:53
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+"ᠠᠭᠤᠴᠢᠯᠠᠭᠠᠷᠠᠢ᠂ ᠠᠭᠤᠯᠭ᠎ᠠ ᠣᠯᠳᠠᠭᠰᠠᠨ ᠦᠭᠡᠢ ᠃ ᠬᠠᠶᠢᠬᠤ  ᠪᠠᠷ ᠳᠠᠮᠵᠢᠨ ᠬᠣᠯᠪᠤᠭᠳᠠᠯ ᠲᠠᠢ ᠠᠭᠤᠯᠭ᠎ᠠ "
+"ᠡᠷᠢᠵᠦ ᠣᠯᠵᠤ ᠮᠠᠭᠠᠳ ᠦᠭᠡᠢ ᠃ "
+
+#: content-page.php:21 content.php:45 image.php:102
+msgid "Pages:"
+msgstr "ᠬᠠᠭᠤᠳᠠᠰᠤ᠄"
+
+#: content.php:16
+msgid "Featured post"
+msgstr "ᠥᠪᠡᠷᠮᠢᠴᠡ ᠵᠣᠬᠢᠶᠠᠯ"
+
+#: content.php:66
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+"%s <span class=\"meta-nav\">&rarr;</span>  ᠢᠶᠡᠷ ᠳᠡᠮᠵᠢᠨ ᠪᠦᠬᠦ ᠵᠣᠬᠢᠶᠠᠯ ᠢ ᠦᠵᠡᠬᠦ"
+
+#: footer.php:16
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:16
+msgid "Semantic Personal Publishing Platform"
+msgstr "ᠦᠭᠡ ᠶᠢᠨ ᠤᠳᠬ᠎ᠠ ᠶᠢ ᠨᠡᠶᠢᠲᠡᠯᠡᠬᠦ ᠬᠤᠪᠢ ᠶᠢᠨ ᠲᠠᠪᠴᠠᠩ"
+
+#: footer.php:16
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "%s ᠮᠡᠷᠭᠡᠵᠢᠯ  ᠬᠠᠩᠭᠠᠪᠠ"
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr "ᠭᠣᠣᠯ ᠳᠣᠪᠶᠤᠭ"
+
+#: functions.php:144
+#, php-format
+msgid "Page %s"
+msgstr "ᠬᠠᠭᠤᠳᠠᠰᠤ %s"
+
+#: functions.php:173
+msgid "Main Sidebar"
+msgstr "ᠭᠣᠣᠯ ᠬᠠᠵᠠᠭᠤ ᠪᠤᠯᠤᠩ"
+
+#: functions.php:175
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+"ᠥᠪᠡᠷᠳᠡᠭᠡᠨ ᠵᠢᠵᠢᠭ ᠲᠣᠨᠣᠭ ᠲᠠᠢ ᠲᠡᠷᠢᠭᠦᠨ ᠬᠠᠭᠤᠳᠠᠰᠤᠨ ᠤ ᠵᠠᠭᠪᠤᠷ ᠠᠴᠠ ᠪᠤᠰᠤᠳ ᠬᠠᠭᠤᠳᠠᠰᠤ ᠪᠠ "
+"ᠵᠣᠬᠢᠶᠠᠯ ᠢ ᠢᠯᠡᠷᠡᠭᠦᠯᠦᠨ᠎ᠡ"
+
+#: functions.php:183
+msgid "First Front Page Widget Area"
+msgstr "ᠨᠢᠭᠡᠳᠦᠭᠡᠷ ᠲᠡᠷᠢᠭᠦᠨ ᠬᠠᠭᠤᠳᠠᠰᠤᠨ ᠤ ᠵᠢᠵᠢᠭ ᠲᠣᠨᠣᠭ ᠤᠨ ᠲᠣᠭᠣᠷᠢᠭ"
+
+#: functions.php:185 functions.php:195
+msgid ""
+"Appears when using the optional Front Page template with a page set as "
+"Static Front Page"
+msgstr "ᠬᠥᠳᠡᠯᠬᠦ ᠦᠭᠡᠢ ᠲᠡᠷᠢᠭᠦᠨ ᠬᠠᠭᠤᠳᠠᠰᠤ ᠤᠨ ᠵᠠᠭᠪᠤᠷ ᠢ ᠬᠡᠷᠡᠭᠯᠡᠬᠦ ᠦᠶᠡᠰ ᠢᠯᠡᠷᠡᠨ᠎ᠡ"
+
+#: functions.php:193
+msgid "Second Front Page Widget Area"
+msgstr "ᠬᠣᠶᠠᠳᠤᠭᠠᠷ ᠲᠡᠷᠢᠭᠦᠨ ᠬᠠᠭᠤᠳᠠᠰᠤᠨ ᠤ ᠵᠢᠵᠢᠭ ᠲᠣᠨᠣᠭ ᠤᠨ ᠲᠣᠭᠣᠷᠢᠭ"
+
+#: functions.php:217 single.php:20
+msgid "Post navigation"
+msgstr "ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠵᠠᠯᠠᠭᠤᠷ"
+
+#: functions.php:218
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> ᠬᠠᠭᠤᠴᠢᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠳ"
+
+#: functions.php:219
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "ᠰᠢᠨ᠎ᠡ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠳ <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:244
+msgid "Pingback:"
+msgstr "ᠢᠵᠢᠯ ᠮᠥᠷᠳᠡᠭᠡᠰᠦ᠄ "
+
+#: functions.php:244
+msgid "(Edit)"
+msgstr "(ᠵᠠᠰᠠᠪᠤᠷᠢᠯᠠᠬᠤ)"
+
+#: functions.php:259
+msgid "Post author"
+msgstr "ᠵᠣᠬᠢᠶᠠᠭᠴᠢ"
+
+#. translators: 1: date, 2: time
+#: functions.php:265
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s  ᠳᠤ"
+
+#: functions.php:271
+msgid "Your comment is awaiting moderation."
+msgstr "ᠲᠠᠨ  ᠤ ᠰᠢᠭᠦᠮᠵᠢ ᠵᠥᠪᠰᠢᠶᠡᠷᠡᠯ ᠬᠦᠯᠢᠶᠡᠵᠦ ᠪᠠᠶᠢᠭᠰᠠᠭᠠᠷ᠃"
+
+#: functions.php:280
+msgid "Reply"
+msgstr "ᠬᠠᠷᠢᠭᠤᠯᠬᠤ"
+
+#: functions.php:301 functions.php:304
+msgid ", "
+msgstr ", "
+
+#: functions.php:315
+#, php-format
+msgid "View all posts by %s"
+msgstr "%s  ᠪᠠᠷ ᠳᠠᠮᠵᠢᠨ ᠪᠥᠬᠥ ᠵᠣᠬᠢᠶᠠᠯ ᠢ ᠤᠩᠰᠢᠬᠤ"
+
+#: functions.php:321
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+msgstr ""
+"ᠡᠨᠡ ᠵᠣᠷᠪᠣᠰ ᠢ  %1$s  ᠳᠤ %2$s  ᠪᠠᠷ ᠱᠣᠰᠢᠭᠯᠠᠭᠳᠠᠵᠤ<span class=\"by-author\"> "
+"%4$s</span> %3$s  ᠳᠤ ᠨᠡᠶᠢᠲᠡᠯᠡᠵᠡᠢ᠃"
+
+#: functions.php:323
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+"ᠡᠨᠡ ᠵᠣᠷᠪᠣᠰ ᠢ  %1$s  ᠳᠤ <span class=\"by-author\"> %4$s</span> %3$s  ᠳᠤ "
+"ᠨᠡᠶᠢᠲᠡᠯᠡᠵᠡᠢ᠃"
+
+#: functions.php:325
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+"ᠡᠨᠡ ᠵᠣᠷᠪᠣᠰ ᠢ <span class=\"by-author\"> %4$s</span> %3$s  ᠳᠤ ᠨᠡᠶᠢᠲᠡᠯᠡᠵᠡᠢ᠃"
+
+#: header.php:43
+msgid "Menu"
+msgstr "ᠲᠣᠪᠶᠤᠭ"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "ᠠᠭᠤᠯᠭ᠎ᠠ ᠳᠤ ᠲᠣᠪᠴᠢᠯᠠᠬᠤ"
+
+#: image.php:26
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\"> ᠨᠡᠶᠢᠲᠡᠯᠡᠭᠰᠡᠨ </span> <span "
+"class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</"
+"time></span>  <a href=\"%3$s\" title=\"Link to full-size image\">%4$s "
+"&times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery"
+"\">%8$s</a>."
+
+#: image.php:41
+msgid "&larr; Previous"
+msgstr "&larr; ᠡᠮᠦᠨᠡᠬᠢ"
+
+#: image.php:42
+msgid "Next &rarr;"
+msgstr "ᠳᠠᠷᠠᠭᠠᠬᠢ &rarr;"
+
+#: index.php:38
+msgid "No posts to display"
+msgstr "ᠢᠯᠡᠷᠡᠮᠡᠷ ᠵᠣᠬᠢᠶᠠᠯ ᠪᠠᠶᠢᠬᠤ ᠦᠭᠡᠢ"
+
+#: index.php:42
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+"ᠠᠩᠬᠠᠨ ᠤ ᠵᠣᠬᠢᠶᠠᠯ ᠢᠶᠠᠨ ᠨᠡᠶᠢᠲᠡᠯᠡᠬᠦ ᠭᠡᠵᠦ ᠪᠠᠶᠢᠨ᠎ᠠ ᠤᠤ ? <a href=\"%s\">ᠡᠨᠳᠡ "
+"ᠳᠣᠶ᠋ᠢᠭᠠᠷᠠᠢ᠃</a>."
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "ᠬᠠᠶᠢᠭᠰᠠᠨ ᠳ᠋ᠦᠩ: %s"
+
+#: search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"ᠠᠭᠤᠴᠢᠯᠠᠭᠠᠷᠠᠢ᠂ ᠲᠠᠨ ᠤ ᠬᠠᠶᠢᠭᠰᠠᠨ ᠲᠠᠢ ᠲᠠᠭᠠᠷᠠᠬᠤ ᠠᠭᠤᠯᠭ᠎ᠠ ᠦᠭᠡᠢ᠃ ᠲᠠ ᠥᠭᠡᠷ᠎ᠡ ᠦᠭᠡ ᠪᠡᠷ "
+"ᠲᠤᠷᠰᠢᠨ᠎ᠠ ᠤᠤ"
+
+#: single.php:21
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:22
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: tag.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "ᠱᠣᠰᠢᠭ᠎ᠠ ᠶᠢᠨ ᠳᠠᠩᠰᠠ: %s"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Twelve For Mongolian"
+msgstr "Twenty Twelve For Mongolian"
+
+#. Theme URI of the plugin/theme
+msgid "http://wordpress.org/themes/twentytwelve"
+msgstr "http://wordpress.org/themes/twentytwelve"
+
+#. Description of the plugin/theme
+msgid ""
+"The 2012 theme for WordPress is a fully responsive theme that looks great on "
+"any device. Features include a front page template with its own widgets, an "
+"optional display font, styling for post formats on both index and single "
+"views, and an optional no-sidebar page template. Make it yours with a custom "
+"menu, header image, and background."
+msgstr ""
+"The 2012 theme for WordPress is a fully responsive theme that looks great on "
+"any device. Features include a front page template with its own widgets, an "
+"optional display font, styling for post formats on both index and single "
+"views, and an optional no-sidebar page template. Make it yours with a custom "
+"menu, header image, and background."
+
+#. Author of the plugin/theme
+msgid "Tranlated By ORHON XuYS"
+msgstr "Tranlated By ORHON XuYS"
+
+#. Author URI of the plugin/theme
+msgid "http://www.orhonit.org/"
+msgstr "http://www.orhonit.org/"
