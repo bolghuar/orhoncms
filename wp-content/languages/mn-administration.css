@@ -388,6 +388,9 @@ span.description,textarea, input, select {
 	#wpbody-content #dashboard-widgets .postbox-container {
 		width: 100%;
 	}
+	div#dashboard-widgets-wrap {
+    width: 100%;
+}
 }
 .postbox .inside, .stuffbox .inside {
 	padding: 0 12px 12px;
@@ -1986,3 +1989,23 @@ body.wp-admin.locale-mn span.select2-dropdown.select2-dropdown--below {
     -moz-transform-origin: left top;
     -moz-transform: matrix(0,1,1,0,28,-28);
 }
+body.wp-admin.locale-mn.customize-active.full-overlay-active div#customize-container{
+	height: 100vw;
+	overflow: auto;
+	transform-origin: left top;
+    transform: matrix(0,1,1,0,0,0);
+    -ms-transform-origin: left top;
+    -ms-transform: matrix(0,1,1,0,0,0);
+    -webkit-transform-origin: left top;
+    -webkit-transform: matrix(0,1,1,0,0,0);
+    -o-transform-origin: left top;
+    -o-transform: matrix(0,1,1,0,0,0);
+    -moz-transform-origin: left top;
+    -moz-transform: matrix(0,1,1,0,0,0);
+}
+
+
+
+
+
+
