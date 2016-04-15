@@ -121,10 +121,10 @@ add_action('admin_init','orohn_dash_remove_submenu');
 /**
   * 屏蔽后台页脚版本号
   */
- function change_footer_admin () {return '';}
- add_filter('admin_footer_text', 'change_footer_admin', 9999);
- function change_footer_version() {return 'orhon CMS 1.0.0';}
- add_filter( 'update_footer', 'change_footer_version', 9999);
+ function orhon_change_footer_admin () {return '';}
+ add_filter('admin_footer_text', 'orhon_change_footer_admin', 9999);
+ function orhon_change_footer_version() {return 'orhon CMS 1.0.0';}
+ add_filter( 'update_footer', 'orhon_change_footer_version', 9999);
  /*
   * 屏蔽后台导航栏LOGO
  */
@@ -162,7 +162,7 @@ function orhon_remove_custom_dashboard_widgets() {
 	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
 
 	//custom dashboard widget
-	// wp_add_dashboard_widget('feed_orhon_dashboard_widget', __('Mongolian WordPress News'), 'dashboard_custom_feed_orhon_output');
+	wp_add_dashboard_widget('feed_orhon_dashboard_widget', __('Mongolian WordPress News'), 'dashboard_custom_feed_orhon_output');
 
 }
  add_action('wp_dashboard_setup', 'orhon_remove_custom_dashboard_widgets' );
@@ -171,7 +171,7 @@ function orhon_remove_custom_dashboard_widgets() {
 function dashboard_custom_feed_orhon_output() {
      echo '<div class="_orhon-rss-widget">';
      wp_widget_rss_output(array(
-          'url' => 'http://www.orhoncms.org/wordpress/', //rss地址
+          'url' => 'http://www.orhoncms.org/feed/', //rss地址
           'title' => __('Mongolian WordPress News'),
           'items' => 6,         //显示篇数
           'show_summary' => 0,  //是否显示摘要，1为显示
@@ -800,7 +800,8 @@ function orhoncms_script_admin_media_fix() {
 	            var imgfloat = jQuery(img)[0].style.float;
 	            img.appendTo(imgbox);
 	            imghtml.append(imgbox);
-	            var contentWidth = jQuery("#wpbody").width();
+	            imgindent = parseInt(jQuery(imgbox.parent()).css("text-indent"));
+	            var contentWidth = jQuery("#wpbody").width()-imgindent;
 	            jQuery("<img/>").attr("src", jQuery(img).attr("src")).load(function() {
 	                realWidth = this.naturalWidth;
 	                realHeight = this.naturalHeight;
@@ -851,7 +852,8 @@ function orhoncms_script_front_media_fix($elements="",$contentbox="") {
 	            var imgfloat = jQuery(img)[0].style.float;
 	            img.appendTo(imgbox);
 	            imghtml.append(imgbox);
-	            var contentWidth = jQuery("'.$contentbox.'").width();
+	            imgindent = parseInt(jQuery(imgbox.parent()).css("text-indent"));
+	            var contentWidth = jQuery("'.$contentbox.'").width()-imgindent;
 	            jQuery("<img/>").attr("src", jQuery(img).attr("src")).load(function() {
 	                realWidth = this.naturalWidth;
 	                realHeight = this.naturalHeight;
